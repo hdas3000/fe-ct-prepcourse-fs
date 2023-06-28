@@ -7,7 +7,14 @@ function crearGato(nombre, edad) {
    // La propiedad "meow" será una función que retorne el string: "Meow!".
    // Retornar el objeto.
    // Tu código:
+   var nuevobjeto = {
+      nombre: nombre,
+      edad: edad,
+      meow: function(){console.log('Meow!')}, 
+   };
 }
+crarGato('Hector', 16);
+console.log(nuevobjeto.meow);
 
 function nuevoUsuario(nombre, email, password) {
    // Debes crear un nuevo objeto.
